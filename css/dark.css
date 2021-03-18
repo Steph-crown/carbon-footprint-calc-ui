@@ -44,7 +44,7 @@ input, .add, select {
 }
 
 .diesel select {
-    border: none;
+    border: 1px solid var(--dark);
     border-right: 1px solid var(--darker);
     background-color: rgb(24, 19, 19);
 }
