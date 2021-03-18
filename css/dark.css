@@ -55,3 +55,7 @@ input, .add, select {
     border: none;
     border-left: 1px solid var(--darker);
 }
+
+div.comp {
+    border-bottom: 1px solid var(--dark);
+}
