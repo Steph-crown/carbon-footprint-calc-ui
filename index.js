@@ -16,3 +16,4 @@ output2.innerHTML = slider2.value + " miles per gallon"; // Display the default 
 slider2.oninput = function(e) {
   output2.innerHTML = this.value + " miles per gallon";
 }
+

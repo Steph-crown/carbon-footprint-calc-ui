@@ -1,5 +1,5 @@
 .slidecontainer {
-    width: 70%;
+    width: 60%;
     margin: 10px auto;
 }
 
@@ -33,6 +33,14 @@
   .slider::-moz-range-thumb {
     width: 25px;
     height: 25px;
-    background: rgb(16, 66, 112); 
+    background: rgb(27, 95, 158); 
     cursor: pointer; 
   }
+  .number-line {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 8px;
+  }
+
+  
