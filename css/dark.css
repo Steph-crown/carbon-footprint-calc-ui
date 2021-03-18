@@ -50,3 +50,8 @@ input, .add, select {
 .diesel input {
     border: none;
 }
+.miles-per-year {
+    background-color: rgb(24, 19, 19);
+    border: none;
+    border-left: 1px solid var(--darker);
+}
