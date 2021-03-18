@@ -9,22 +9,14 @@ h1 {
     text-align: center;
     margin: 24px 0 64px 0;
 }
-
-.top-nav {
-    border-bottom: 1px solid #b9b0b0;
-    padding: 10px 0 14px 0;
-}
-
-.top-nav i {
-    display: block;
-    padding: 8px 20px;
-    border-right: 1px solid #b9b0b0;
-}
-
-.top-nav .fa {
-    color: rgb(15, 15, 15);
-    font-size: 20px;
-}
+/* 
+body {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.6)),url('./../assets/bg.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
 
 .flex {
     display: flex;
@@ -34,10 +26,12 @@ header nav {
     width: 75%;
     margin: 8px auto;
     border: 1px solid #dfdddd;
-    padding: 16px 8px;
+    padding: 8px;
     border-radius: 5px;
     min-height: 10px;
     align-items: center;
+    justify-content: center;
+    min-width: 23px;
 }
 header nav div {
     margin: 0 24px;
@@ -55,8 +49,8 @@ header nav div {
 
 img, header nav .fa {
     /* color: red; */
-    height: 32px;
-    font-size: 32px;
+    height: 24px;
+    font-size: 24px;
 }
 h4 {
     font-weight: 400;
@@ -195,7 +189,7 @@ input {
     }
     header nav div.nav-part {
         /* width: 555px; */
-        margin-right: 56px;
+        /* margin-right: 56px; */
     }
     /* header nav {
         overflow: auto
