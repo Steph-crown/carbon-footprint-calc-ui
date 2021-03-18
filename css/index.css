@@ -80,7 +80,7 @@ section {
     border: 1px solid #dfdddd;
     border-radius: 5px;
 }
-section nav, .first {
+section nav, .comp {
     padding: 14px 32px;
 }
 
@@ -109,7 +109,7 @@ section nav {
 }
 .diesel>* {
     border: 1px solid #c3bbbb;
-    padding: 8px 10px;
+    padding: 10px;
 }
 .diesel select, .miles-per-year {
     width: 100px;
@@ -123,6 +123,7 @@ section nav {
 .miles-per-year {
     border-left: none;
     border-right: none;
+    background-color: #f8f5f5;
 }
 .cross {
     width: 40px;
@@ -135,4 +136,22 @@ section nav {
 }  
 input {
     width: 100%;
+}
+
+.first {
+    border-bottom: 1px solid #dfdddd;
+}
+
+.slidecontainer {
+    margin-top: 24px;
+}
+
+.slide-value {
+    max-width: 170px;
+    margin: 32px auto 0px auto;
+    padding: 4px;
+    text-align: center;
+    background-color: rgb(16, 66, 112);
+    border-radius: 5px;
+    color: white;
 }

@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Carbon Footprint Calculator</title>
-    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/slide.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Source+Serif+Pro:wght@300;400&display=swap" rel="stylesheet">
 </head>
@@ -87,7 +88,7 @@
             </div>
         </nav>       
         
-        <div class="first">
+        <div class="comp first">
             <div class="diesel">
                 <select name="diesel" id="">
                     <option value="">Diesel</option>
@@ -100,7 +101,35 @@
                     &times;
                 </div>
             </div>
+
+            <div class="slidecontainer">
+                <div class="slide-value value-1">
+
+                </div>
+                <input type="range" min="10" max="115" value="41" class="slider" id="myRange1">
+              </div>
+        </div>
+
+        <div class="comp second">
+            <div class="diesel">
+                <select name="diesel" id="">
+                    <option value="">Diesel</option>
+                </select>
+                <input type="number" />
+                <div class="miles-per-year">
+                    <p>miles/year</p> 
+                </div>
+                <div class="cross">
+                    &times;
+                </div>
+            </div>
+
+            <div class="slidecontainer">
+                <div class="slide-value value-2"></div>
+                <input type="range" min="10" max="115" value="41" class="slider" id="myRange2">
+              </div>
         </div>
     </section>
+    <script src="./index.js"></script>
 </body>
 </html>
