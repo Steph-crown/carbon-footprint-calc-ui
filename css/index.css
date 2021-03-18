@@ -7,7 +7,7 @@
 h1 {
     font-family: 'Source Serif Pro';
     text-align: center;
-    margin: 24px 0 80px 0;
+    margin: 24px 0 64px 0;
 }
 
 .top-nav {
@@ -51,9 +51,7 @@ header nav div {
     align-items: center;
     
 }
-header nav div.nav-part {
-    width: 555px;
-}
+
 
 img, header nav .fa {
     /* color: red; */
@@ -171,7 +169,7 @@ input {
         width: 90%;
     }
     header nav {
-        overflow-x: scroll;
+        overflow-x: auto;
     }
     .your-vehicles {
         margin-bottom: 16px;
@@ -195,7 +193,11 @@ input {
     .cross {
         width: 15
     }
-    /* header nav div {
-        width: 490px;
+    header nav div.nav-part {
+        /* width: 555px; */
+        margin-right: 56px;
+    }
+    /* header nav {
+        overflow: auto
     } */
 }
