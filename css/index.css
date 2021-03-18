@@ -157,3 +157,15 @@ input {
     border-radius: 5px;
     color: white;
 }
+
+@media (max-width: 800px) {
+    header nav, section {
+        width: 90%;
+    }
+    header nav {
+        overflow-x: scroll;
+    }
+    /* header nav div {
+        width: 490px;
+    } */
+}
