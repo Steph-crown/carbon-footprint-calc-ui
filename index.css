@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Lato;
+}
+h1 {
+    font-family: 'Source Serif Pro';
+    text-align: center;
+    margin: 24px 0 80px 0;
+}
+
+.top-nav {
+    border-bottom: 1px solid #b9b0b0;
+    padding: 10px 0 14px 0;
+}
+
+.top-nav i {
+    display: block;
+    padding: 8px 20px;
+    border-right: 1px solid #b9b0b0;
+}
+
+.top-nav .fa {
+    color: rgb(15, 15, 15);
+    font-size: 20px;
+}
+
+.flex {
+    display: flex;
+}
+header nav {
+    background-color: #f8f5f5;
+    width: 75%;
+    margin: 8px auto;
+    border: 1px solid #dfdddd;
+    padding: 16px 8px;
+    border-radius: 5px;
+    justify-content: center;
+    min-height: 10px;
+    align-items: center;
+}
+header nav div {
+    margin: 0 24px;
+}
+
+.nav-part {
+    display: flex;
+    min-width: 2px;
+    flex-direction: column;
+    align-items: center;
+}
+
+img, header nav .fa {
+    /* color: red; */
+    height: 32px;
+    font-size: 32px;
+}
+h4 {
+    font-weight: 400;
+}
+h3.how-to {
+    text-align: center;
+    margin-top: 32px;
+}
+.outside {
+    margin-top: 24px;
+}
+.outside img {
+    height: 56px;
+}
+.outside h3 {
+    font-weight: 700;
+}
+
+
+section {
+    width: 75%;
+    margin: 8px auto;
+    border: 1px solid #dfdddd;
+    border-radius: 5px;
+}
+section nav, .first {
+    padding: 14px 32px;
+}
+
+section nav {
+    background-color: #f8f5f5;
+    min-height: 2px;
+    align-items: center;
+    border-bottom: 1px solid #dfdddd;
+}
+.your-vehicles {
+    margin-right: 30%;
+}
+.add {
+    border: 1px solid #dfdddd;
+    background-color: white;
+    margin-left: 8px;
+    padding: 2px 8px;
+    border-radius: 3px;
+    font-weight: 700;
+}
+
+.diesel {
+    display: flex;
+    margin-top: 14px;
+    width: 100%;
+}
+.diesel>* {
+    border: 1px solid #c3bbbb;
+    padding: 8px 10px;
+}
+.diesel select, .miles-per-year {
+    width: 100px;
+    font-family: Lato;
+}
+
+.diesel select {
+    border-radius: 5px 0 0 5px;
+    border-right: none;
+}
+.miles-per-year {
+    border-left: none;
+    border-right: none;
+}
+.cross {
+    width: 40px;
+    background-color: rgb(200, 36, 36);
+    color: white;
+    border: 1px solid rgb(200, 36, 36);
+    border-radius: 0 5px 5px 0;
+    display: flex;
+    justify-content: center;
+}  
+input {
+    width: 100%;
+}

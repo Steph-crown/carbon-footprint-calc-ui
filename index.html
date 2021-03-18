@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Carbon Footprint Calculator</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Source+Serif+Pro:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class='flex top-nav'>
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-envelope"></i>
+        <i class="fa fa-print"></i>
+    </nav>
+
+    <header>
+        <h1>Carbon Footprint Calculator</h1>
+        <nav class='flex'>
+            <div class="nav-part">
+                <i class="fa fa-cloud"></i>
+                <h4>Get Started</h4>
+            </div>
+            <div class="nav-part">
+                <i class="fa fa-plane"></i>
+                <h4
+                >Travel</h4
+                    >
+            </div>
+            <div class="nav-part">
+                <i class="fa fa-home"></i>
+                <h4
+                >Home</h4
+                    >
+            </div>
+            <div class="nav-part">
+                <img src="./assets/apple.svg" alt="Apple">
+                <h4
+                >Food</h4
+                    >
+            </div>
+            <div class="nav-part">
+                <i class="fa fa-shopping-cart"></i>
+                <h4
+                >Shopping</h4
+                    >
+            </div>
+            <div class="nav-part">
+                <img src="./assets/foot.svg" alt="Foot print">
+                <h4
+                >Your Footprint</h4
+                    >
+            </div>
+            <div class="nav-part">
+                <img src="./assets/hand.svg" alt="Palm">
+                <h4
+                >Take Action</h4
+                    >
+            </div>
+        </nav>
+        <div class="nav-part outside">
+            <img src="./assets/white-plane.svg" alt="White Plane">
+            <h3>Travel</h3>
+        </div>
+        
+        <h3 class='how-to'>HOW DO YOU GET AROUND?</h3>
+        
+    </header>
+
+    <section>
+        <nav class='flex'>
+            <div class="your-vehicles flex">
+                <h4>Your vehicles</h4>
+                <div class="add">
+                    + add
+                </div>
+            </div>
+            <div class="consumption-unit flex">
+                <h4>Consumption unit </h4>
+                <select name="miles" id="" class='add'>
+                    <option value="">miles per gallon</option>
+                </select>
+            </div>
+        </nav>       
+        
+        <div class="first">
+            <div class="diesel">
+                <select name="diesel" id="">
+                    <option value="">Diesel</option>
+                </select>
+                <input type="number" />
+                <div class="miles-per-year">
+                    <p>miles/year</p> 
+                </div>
+                <div class="cross">
+                    &times;
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
