@@ -9,14 +9,7 @@ h1 {
     text-align: center;
     margin: 24px 0 64px 0;
 }
-/* 
-body {
-    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.6)),url('./../assets/bg.jpg');
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
+
 
 .flex {
     display: flex;
@@ -53,7 +46,7 @@ img, header nav .fa {
     font-size: 24px;
 }
 h4 {
-    font-weight: 400;
+    font-weight: 300;
 }
 h3.how-to {
     text-align: center;
@@ -66,7 +59,7 @@ h3.how-to {
     height: 56px;
 }
 .outside h3 {
-    font-weight: 700;
+    font-weight: 400;
 }
 
 

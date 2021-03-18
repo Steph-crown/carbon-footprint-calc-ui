@@ -1,0 +1,52 @@
+:root {
+    --dark: rgb(31, 28, 28);
+    --darker: rgb(17, 14, 14);
+}
+body {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.6)),url('./../assets/bg2.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+* {
+    color: white;
+}
+
+header nav {
+    background-color:var(--dark);
+    border: none;
+}
+.outside .fa-plane {
+    color: white;
+    font-size: 48px;
+}
+
+section nav {
+    background-color: var(--dark);
+    border: none;
+}
+
+section {
+    background-color: var(--darker);
+    border: none;
+}
+
+input, .add, select {
+    background-color: var(--dark);
+}
+
+.add {
+    border: 1px solid var(--darker);
+    font-weight: 300;
+}
+
+.diesel select {
+    border: none;
+    border-right: 1px solid var(--darker);
+}
+
+.diesel input {
+    border: none;
+}
